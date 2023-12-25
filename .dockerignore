@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,node,react,yarn
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,node,react,yarn
 
@@ -164,14 +163,10 @@ sketch
 
 ./logs/**/*
 ignore/**/*
-*.ignore
 *.ignore*
 dist*
+*.http
 /db/pgdata/**/*
-/db/redisdata/**/*
+.vscode
 
-*.env*
-!.env.copy
-!prod.env
-.wakatime-project
-dist
+*.md
